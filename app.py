@@ -134,5 +134,5 @@ if st.button("Predict Churn"):
 
     st.write(f"Churn Probability: {probability:.2%}")
     st.write(f"Stay Probability: {(1 - probability):.2%}")
-    st.write("Input data types:")
+    
 
